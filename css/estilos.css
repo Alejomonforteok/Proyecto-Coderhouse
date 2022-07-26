@@ -1,10 +1,7 @@
-@charset "UTF-8";
-@import "variables";
-@import "mediaqueries";
 
 /* DISEÑO */
 * {
-  color: $color-fuente;
+  color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center; }
 
@@ -18,12 +15,12 @@
 
 .rounded {
   max-width: 250px;
-  padding-top: $size-standar;
-  padding-bottom: $size-standar; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .main-discografia {
-  padding-top: $size-standar;
-  padding-bottom: $size-standar; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .container-fluid {
   max-width: 750px;
@@ -31,7 +28,7 @@
   padding-bottom: 2rem; }
 
 a {
-  color: $color-fuente;
+  color: black;
   text-decoration: none; }
 
 body {
@@ -41,20 +38,20 @@ body {
   background-color: #eae6f2; }
 
 .linea {
-  background-color: $color-fuente;
+  background-color: black;
   height: 5px; }
 
 .tours-imagen {
-  padding-top: $size-standar;
-  padding-bottom: $size-standar;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
   max-width: 900px; }
 
 li {
   justify-content: center;
   list-style-type: none;
-  padding-top: $size-standar;
-  padding-bottom: $size-standar;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 5vh;
   padding-right: 5vh; }
 
@@ -87,15 +84,15 @@ li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(7, 0.5fr);
-  gap: $size-standar; }
+  gap: 1rem; }
 
 .img-biografia {
-  padding-top: $size-standar;
-  padding-bottom: $size-standar;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: $size-standar;
+  gap: 1rem;
   flex: 1 1 clamp(300px, 30%, 400px); }
 
 .img-biografia:nth-of-type(1) {
@@ -157,7 +154,30 @@ li {
 /* FIN DEL GRID */
 .container {
   display: flex;
-  gap: $size-standar;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap; }
 
+/* MEDIAQUERY */
+@media only screen and (max-width: 950px) {
+  .img-section, .container-index {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
+@media only screen and (max-width: 1500px) {
+  .container-discografia, .tienda {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
+@media only screen and (max-width: 1182) {
+  .exitos {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
+/* Fin de MEDIAQUERY */

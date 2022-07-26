@@ -1,0 +1,24 @@
+/* MEDIAQUERY */
+@media only screen and (max-width: 950px) {
+    .img-section, .container-index {
+      display: flex;
+      gap: $size-standar;
+      justify-content: center;
+      flex-wrap: wrap; } }
+  
+  @media only screen and (max-width: 1500px) {
+    .container-discografia, .tienda {
+      display: flex;
+      gap: $size-standar;
+      justify-content: center;
+      flex-wrap: wrap; } }
+  
+  @media only screen and (max-width: 1182) {
+    .exitos {
+      display: flex;
+      gap: $size-standar;
+      justify-content: center;
+      flex-wrap: wrap; } }
+  
+  /* Fin de MEDIAQUERY */
+  
