@@ -1,0 +1,25 @@
+{
+  "name": "ideamonforte",
+  "version": "1.0.0",
+  "description": "<h1> Pagina Web de Bad Bunny para CoderHouse </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejomonforteok/Proyecto-Coderhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejomonforteok/Proyecto-Coderhouse/issues"
+  },
+  "homepage": "https://github.com/Alejomonforteok/Proyecto-Coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
