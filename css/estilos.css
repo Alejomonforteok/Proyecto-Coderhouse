@@ -18,6 +18,12 @@
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
+.container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap; }
+
 .main-discografia {
   padding-top: 1rem;
   padding-bottom: 1rem; }
@@ -36,6 +42,10 @@ body {
 
 .card {
   background-color: #eae6f2; }
+
+.card:hover{
+    box-shadow: 0px 1px 20px rgba( 0, 0, 0, .4);
+    transform: translateY(-3%); }
 
 .linea {
   background-color: black;
@@ -152,11 +162,6 @@ li {
   grid-column: 1/5; }
 
 /* FIN DEL GRID */
-.container {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap; }
 
 /* MEDIAQUERY */
 @media only screen and (max-width: 950px) {
