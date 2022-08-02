@@ -1,0 +1,32 @@
+@import "variables";
+@import "bases";
+@import "mixins";
+
+/* Nav */
+.linea {
+    background-color: $color-fuente;
+    height: 5px; 
+  }
+
+.nav{
+    @include flex-center-wrap;
+    &.link {
+        font-size: 18px;
+      } 
+    & a {
+        color: $color-fuente;
+        text-decoration: none; 
+      } 
+    & .link {
+        font-size: 18px;
+      }
+}
+
+
+
+
+
+
+
+
+

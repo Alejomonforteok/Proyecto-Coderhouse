@@ -1,8 +1,10 @@
-/* MEDIAQUERY */
+@import "variables";
+@import "mixins";
+
 @media only screen and (max-width: 950px) {
     .img-section, .container-index {
       display: flex;
-      gap: $size-standar;
+      gap:$size-standar;
       justify-content: center;
       flex-wrap: wrap; } }
   

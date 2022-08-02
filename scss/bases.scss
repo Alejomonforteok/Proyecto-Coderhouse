@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixins";
+
+/* Bases */
+
+* {
+    color: $color-fuente;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+  }
+
+body {
+    background-color: $color-principal; 
+  }
+
+.card {
+    background-color: #eae6f2; 
+
+  & .card:hover{
+    box-shadow: 0px 1px 20px rgba( 0, 0, 0, .4);
+    transform: translateY(-3%); 
+  }
+}
+
+li {
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5vh;
+  padding-right: 5vh; 
+}

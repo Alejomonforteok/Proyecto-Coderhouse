@@ -1,0 +1,16 @@
+@import "variables";
+@import "bases";
+@import "mixins";
+
+/* Tours */
+
+.tours-imagen {
+    padding-top: $size-standar;
+    padding-bottom: $size-standar;
+    width: 100%;
+    max-width: 900px; 
+  }
+
+  .date {
+    color: #fa3232; 
+  }

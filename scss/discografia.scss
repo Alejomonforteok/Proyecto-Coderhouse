@@ -1,0 +1,34 @@
+@import "variables";
+@import "bases";
+@import "mixins";
+
+/* Discografia */
+
+.main-discografia {
+    padding-top: $size-standar;
+    padding-bottom: $size-standar; 
+
+  &.container-fluid {
+    max-width: 750px;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+
+  &.card {
+    background-color: #eae6f2;
+
+  & .card:hover{
+    box-shadow: 0px 1px 20px rgba( 0, 0, 0, .4);
+    transform: translateY(-3%); 
+   }
+  }
+ }
+}
+
+.rounded {
+  max-width: 250px;
+  padding-top: $size-standar;
+  padding-bottom: $size-standar; 
+}
+
+
+

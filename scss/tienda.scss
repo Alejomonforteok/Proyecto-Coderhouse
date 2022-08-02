@@ -1,0 +1,14 @@
+@import "variables";
+@import "bases";
+@import "mixins";
+
+/* Tienda */
+
+li {
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5vh;
+    padding-right: 5vh; 
+  }

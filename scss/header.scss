@@ -1,0 +1,11 @@
+@import "variables";
+@import "bases";
+@import "mixins";
+
+/* Header */
+
+.container {
+    gap: $size-standar;
+    @include flex-center-wrap;
+    padding-top: 1rem;
+  }
