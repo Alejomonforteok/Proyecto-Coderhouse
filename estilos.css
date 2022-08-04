@@ -84,13 +84,14 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
-  .nav.link {
-    font-size: 18px; }
   .nav a {
     color: black;
     text-decoration: none; }
   .nav .link {
     font-size: 18px; }
+    .nav .link:hover {
+      color: #eba834;
+      transition: all 0.2s; }
 
 /* Bases */
 * {
