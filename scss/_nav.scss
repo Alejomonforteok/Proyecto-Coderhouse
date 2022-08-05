@@ -10,18 +10,18 @@
 
 .nav{
     @include flex-center-wrap;
-    & a {
+     a {
         color: $color-fuente;
         text-decoration: none;
-      } 
-    & .link {
+      } }
+
+      .link {
         font-size: 18px;
         &:hover {
           color: #eba834;
           transition: all 0.2s; 
         }
       }
-}
 
 
 
