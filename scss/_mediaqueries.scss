@@ -8,14 +8,15 @@
       justify-content: center;
       flex-wrap: wrap; } }
   
-  @media only screen and (max-width: 1500px) {
+  @media only screen and (max-width: 2400px) {
     .container-discografia, .tienda {
       display: flex;
       gap: $size-standar;
-      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
       flex-wrap: wrap; } }
   
-  @media only screen and (max-width: 1182) {
+  @media only screen and (max-width:1182){
     .exitos {
       display: flex;
       gap: $size-standar;

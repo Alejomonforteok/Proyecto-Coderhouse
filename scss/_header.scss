@@ -8,4 +8,6 @@
     gap: $size-standar;
     @include flex-center-wrap;
     padding-top: 1rem;
+    flex-direction: row;
+    align-items: stretch;
   }
